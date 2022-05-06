@@ -1,0 +1,37 @@
+{
+  "numTotalTestSuites": 4,
+  "numPassedTestSuites": 4,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 2,
+  "numPassedTests": 2,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1650539176569,
+  "success": true,
+  "testResults": [
+    {
+      "perfStats": {
+        "runtime": 43.71050000190735,
+        "start": 1650539183366,
+        "end": 1650539183409.7104
+      },
+      "displayName": "should toggle the class on click",
+      "skipped": false,
+      "status": "pass",
+      "testFilePath": "C:/Users/Jean-Claude Bon/ponyracer/src/components/__tests__/Navbar.spec.ts"
+    },
+    {
+      "perfStats": {
+        "runtime": 43.087899923324585,
+        "start": 1650539184220,
+        "end": 1650539184263.088
+      },
+      "displayName": "renders a title",
+      "skipped": false,
+      "status": "pass",
+      "testFilePath": "C:/Users/Jean-Claude Bon/ponyracer/src/__tests__/App.spec.ts"
+    }
+  ]
+}
