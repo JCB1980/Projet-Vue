@@ -1,8 +1,8 @@
 <template>
 
 
-<Formulaire/>
-<ValeursAmortissables/>
+<Formulaire2/>
+<ValeursAmortissables2/>
 
 
 </template>
@@ -10,13 +10,13 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 
-import Formulaire from './components/Formulaire.vue';
-import ValeursAmortissables from './components/ValeursAmortissables.vue';
+import Formulaire2 from './components/Formulaire2.vue';
+import ValeursAmortissables2 from './components/ValeursAmortissables2.vue';
 
 
 export default defineComponent({
     name: "App",
-    components: { Formulaire, ValeursAmortissables}
+    components: { Formulaire2, ValeursAmortissables2}
 });
 </script>
 
