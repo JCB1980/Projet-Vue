@@ -28,10 +28,6 @@
 
         </div>
 
-        <div>
-            <!--@click="calculer"-->
-            <button class="btn btn-primary">Valider</button>
-        </div>
     </div>
 
 </template>
@@ -40,7 +36,7 @@
 
 <script setup lang="ts">
 
-import { useLmnpService } from '../LMNPService';
+import { useLmnpService } from '../services/LMNPService';
 
 const { lmnp } = useLmnpService();
 

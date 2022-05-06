@@ -1,6 +1,6 @@
 import { watch, watchEffect, reactive } from 'vue';
-import { LMNP } from '@/LMNPModel';
-import { ValeurImmobilisable } from './ValeurImmobilisableModel';
+import { LMNP } from '../models/LMNPModel';
+import { ValeurImmobilisable } from '../models/ValeurImmobilisableModel';
 
 const lmnp = reactive(new LMNP())
 

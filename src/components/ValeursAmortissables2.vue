@@ -1,14 +1,15 @@
 <template>
+  <div>
 
-  <div>Résultat </div>
+    <span>Prix total du bien : {{ lmnp.valeurAmortissable }}</span>
 
-  <span>Prix du bien : {{lmnp.valeurAmortissable}}</span>
+  </div>
 
 </template>
 
 <script setup lang="ts">
 
-import { useLmnpService } from '../LMNPService';
+import { useLmnpService } from '../services/LMNPService';
 
 const { lmnp } = useLmnpService();
 
