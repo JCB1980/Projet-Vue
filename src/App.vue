@@ -1,24 +1,31 @@
 <template>
 
-
-<Formulaire/>
-<ValeursAmortissables/>
+<Navbar/> 
+<Formulaire2/>
+<ChargesExternes/>
 
 
 </template>
 
+
 <script lang="ts">
+
 import { defineComponent } from 'vue';
 
-import Formulaire from './components/Formulaire.vue';
-import ValeursAmortissables from './components/ValeursAmortissables.vue';
+
+
+import Navbar from './components/Navbar.vue';
+import Formulaire2 from './components/Formulaire2.vue';
+import ChargesExternes  from './components/ChargesExternes.vue';
 
 
 export default defineComponent({
     name: "App",
-    components: { Formulaire, ValeursAmortissables}
+    components: { Formulaire2,  Navbar, ChargesExternes}
 });
 </script>
+
+
 
 <style>
 @import 'bootstrap/dist/css/bootstrap.min.css';
