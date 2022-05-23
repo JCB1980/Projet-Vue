@@ -29,9 +29,9 @@
                 class="form-control-sm">
             <br>
             <label for="A6">Valeur du mobilier :</label>
-            <input type="number" v-model.number="lmnp.mobilier"  required class="form-control-sm" id="A6"/><br>
+            <input type="number" v-model.number="lmnp.mobilier.Mobilier"  required class="form-control-sm" id="A6"/><br>
              <label for="A13">Impôts</label>
-      <input type="number" v-model.number="lmnp.impots" class="form-control-sm" id="A13"><br>
+      <input type="number" v-model.number="lmnp.impots.Impots" class="form-control-sm" id="A13"><br>
 
            
         </div>

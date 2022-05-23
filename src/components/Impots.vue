@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <span>Total Impots et taxes  : {{ lmnp.impots }}</span>
+    <span>Total Impots et taxes  : {{ lmnp.impots.Impots }}</span>
 
   </div>
 
