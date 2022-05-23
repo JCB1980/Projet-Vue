@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <span>Mon tableau d'amortissement  : {{ lmnp.amortissementMobilier }}</span>
+    <span>Mon tableau d'amortissement  : {{ lmnp.annuite }}</span>
 
   </div>
 
