@@ -28,8 +28,11 @@ function calculeTotalImpots (impots:Impots): number{
 }
 
 function calculeAmorMobilier (mobilier:Mobilier): number{
-    let annuite =lmnp.mobilier.Mobilier * TX_AMORT_MOBILIER
+    let annuite =lmnp.mobilier.Mobilier * TX_AMORT_MOBILIER;
+    let vnc = lmnp.mobilier.Mobilier-annuite;
     return annuite;
+    return vnc
+    
 }
 
 export function useLmnpService() {

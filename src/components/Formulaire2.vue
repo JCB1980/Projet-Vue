@@ -3,6 +3,7 @@
     <div class="container">
         <div class="form-group">
 
+
             <label for="A1">Frais d'administration :</label>
             <input id="A1" type="number" v-model.number="lmnp.chargesExternes.fraisAdministration"
                 class="form-control-sm">
@@ -31,6 +32,8 @@
             <input type="number" v-model.number="lmnp.mobilier"  required class="form-control-sm" id="A6"/><br>
              <label for="A13">Impôts</label>
       <input type="number" v-model.number="lmnp.impots" class="form-control-sm" id="A13"><br>
+
+           
         </div>
 
     </div>
@@ -40,8 +43,13 @@
 
 
 <script setup lang="ts">
+
+
 import { useLmnpService } from '../services/LMNPService2';
+
 const { lmnp } = useLmnpService();
+
+
 </script>
 
 
