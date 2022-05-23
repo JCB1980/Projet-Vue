@@ -37,7 +37,7 @@
         <tfoot>
           <tr>
             <td>TOTAL</td>
-            <td>{{A}}</td>
+            <td>{{total}}</td>
             
           </tr>
         </tfoot>
@@ -46,13 +46,23 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { computed,defineComponent,reactive,toRefs } from "vue";
+import {Formulaire} from './Formulaire.vue'
 
 
 
 export default defineComponent({
     name: "ValeursAmortissables",
-    props :['A'],
+    setup(){
+      const valeurs = reactive({
+        val1: 10,
+        val2 : 20
+      });
+      const total = valeurs.val1+valeurs.val2;
+      
+
+      return {total};
+    }
     
     
     
