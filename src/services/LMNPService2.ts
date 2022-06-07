@@ -7,6 +7,16 @@ import { Mobilier } from '@/models/AmortissementMobilier';
 const lmnp = reactive(new LMNP())
 const TX_AMORT_MOBILIER = 0.1;
 
+/*var date = document.getElementById("start_date").value;
+var dateBegin = moment(date);
+
+var dateEnd = moment().endOf("year");
+
+var duration = moment.duration(dateEnd.diff(dateBegin));
+var days = Math.round(duration.asDays());
+
+var daysYear = 365;*/
+
 watch(lmnp, () => { 
     lmnp.totalChargesExternes = calculeTotalChargesExternes(lmnp.chargesExternes);
     lmnp.totalImpots = calculeTotalImpots(lmnp.impots);
@@ -34,6 +44,12 @@ function calculeAmorMobilier (mobilier:Mobilier): number{
     return vnc
     
 }
+
+/*function calculDates(annees: Annees): Annees {
+  let prorataJours = annees.dateDebut;
+
+  return { dateFin };
+}*/
 
 export function useLmnpService() {
 
